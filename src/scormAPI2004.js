@@ -15,7 +15,8 @@
   var constants = window.simplifyScorm.constants;
   var jsonFormatter = window.simplifyScorm.jsonFormatter;
 
-  window.API_1484_11 = new ScormAPI2004();
+  // Commenting out so we have control over which API to add to the window
+  //window.API_1484_11 = new ScormAPI2004();
 
   function ScormAPI2004() {
     var _self = this;

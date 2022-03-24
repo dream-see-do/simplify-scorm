@@ -13,11 +13,12 @@
       listener = sinon.stub();
     });
 
-    context("initially", function() {
-      it("should create a global instance of itself", function() {
-        expect(window.API).to.be.an.instanceof(window.simplifyScorm.ScormAPI);
-      });
-    });
+    // Commenting out because we want to control when API is attached to the window
+    // context("initially", function() {
+    //   it("should create a global instance of itself", function() {
+    //     expect(window.API).to.be.an.instanceof(window.simplifyScorm.ScormAPI);
+    //   });
+    // });
 
     describe("#LMSCommit", function() {
       beforeEach(function() {
